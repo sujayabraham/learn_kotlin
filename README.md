@@ -54,28 +54,28 @@ This repository contains a comprehensive step-by-step learning guide for Kotlin,
 | **41** | Inline Functions | Bytecode inlining, `noinline`, and `crossinline`. | [InlineFunctionsDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InlineFunctionsDemo.kt) |
 | **42** | Operator Overload | Mapping symbols like `+` and `[]` to member functions. | [OperatorOverloadingDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/OperatorOverloadingDemo.kt) |
 | **43** | @CheckResult | Static analysis to ensure return values are not ignored. | [CheckResultDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/CheckResultDemo.kt) |
-| **44** | Adv. Classes | Initialization blocks and secondary constructors. | [ClassesAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ClassesAdvanced.kt) |
-| **45** | Data Classes | Automated `equals`, `hashCode`, `toString`, and `copy`. | [DataClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/DataClassesDemo.kt) |
-| **46** | Adv. Extensions | Extension properties and companion object extensions. | [ExtensionsAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ExtensionsAdvanced.kt) |
-| **47** | Adv. Interfaces | Properties in interfaces and multiple inheritance conflicts. | [InterfacesAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InterfacesAdvanced.kt) |
-| **48** | Class Delegation | Implementing `by` keyword for composition. | [DelegationDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/DelegationDemo.kt) |
-| **49** | Inheritance Rules | Overriding laws and the `Any` class hierarchy. | [InheritanceRulesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InheritanceRulesDemo.kt) |
-| **50** | Adv. Objects | Singleton lifecycle and anonymous object expressions. | [ObjectDeclarationsAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ObjectDeclarationsAdvanced.kt) |
-| **51** | `this` Expressions | Navigating implicit receivers with labeled targets. | [ThisExpressionsDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ThisExpressionsDemo.kt) |
-| **52** | Sealed Classes | Building restricted hierarchies for pattern matching. | [SealedClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/SealedClassesDemo.kt) |
-| **53** | Enum Classes | Constructor properties and abstract member overrides. | [EnumAndInlineDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/EnumAndInlineDemo.kt) |
-| **54** | Inline Classes | `@JvmInline value class` for zero-allocation wrappers. | [InlineValueClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InlineValueClassesDemo.kt) |
-| **55** | Nested and Inner | Static nested classes vs. instance-bound inner classes. | [NestedClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/NestedClassesDemo.kt) |
-| **56** | SAM Interfaces | `fun interface` and seamless lambda conversions. | [Functional_Interfaces.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/Functional_Interfaces.kt) |
-| **57** | Custom Accessors | Detailed use of `field` backing and private setters. | [UserAccountProfile.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/UserAccountProfile.kt) |
-| **58** | Delegated Props | `lazy`, `observable`, and custom property delegates. | [MaxLengthStringDelegate.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/MaxLengthStringDelegate.kt) |
-| **59** | Equality | Structural (`==`) vs. Referential (`===`) equality. | [EqualityDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/EqualityDemo.kt) |
-| **60** | Generics | Variance (`out`/`in`), constraints, and projections. | [GenericsDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/GenericsDemo.kt) |
-| **61** | Async Overview | Comparison of threading, callbacks, and futures. | [AsyncProgrammingOverview.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/AsyncProgrammingOverview.kt) |
-| **62** | Coroutines Intro | Suspending functions and structured concurrency. | [CoroutinesOverview.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/CoroutinesOverview.kt) |
-| **63** | Reflection | Introspecting code via `KClass`, `KFunction`, and `KProperty`. | [ReflectionDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ReflectionDemo.kt) |
+| **44** | Advanced Classes | Constructors, init blocks, and Data Class mechanics. | [ClassesAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ClassesAdvanced.kt), [DataClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/DataClassesDemo.kt) |
+| **45** | Extensions | Extension functions and properties on existing types. | [ExtensionsAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ExtensionsAdvanced.kt) |
+| **46** | Interfaces | Method implementations and property contracts in interfaces. | [InterfacesAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InterfacesAdvanced.kt) |
+| **47** | Class Delegation | Composition over inheritance using the `by` keyword. | [DelegationDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/DelegationDemo.kt) |
+| **48** | Inheritance Rules | Member overriding and multi-inheritance conflict resolution. | [InheritanceRulesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InheritanceRulesDemo.kt) |
+| **49** | Object Declarations | Singletons, companion objects, and expressions. | [ObjectDeclarationsAdvanced.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ObjectDeclarationsAdvanced.kt) |
+| **50** | `this` Expressions | Identifying implicit receivers in nested scopes. | [ThisExpressionsDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ThisExpressionsDemo.kt) |
+| **51** | Sealed Classes | Bounded type hierarchies for exhaustive pattern matching. | [SealedClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/SealedClassesDemo.kt) |
+| **52** | Enum Classes | Constants with parameters and abstract member overrides. | [EnumAndInlineDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/EnumAndInlineDemo.kt) |
+| **53** | Inline Classes | Optimizing wrappers with `@JvmInline value class`. | [InlineValueClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/InlineValueClassesDemo.kt) |
+| **54** | Nested and Inner | Static nested vs. instance-bound inner class models. | [NestedClassesDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/NestedClassesDemo.kt) |
+| **55** | SAM Interfaces | Single Abstract Method conversion and `fun interface`. | [Functional_Interfaces.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/Functional_Interfaces.kt) |
+| **56** | Properties & Fields | Backing fields and granular visibility for setters. | [UserAccountProfile.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/UserAccountProfile.kt) |
+| **57** | Delegated Props | Using `lazy`, `observable`, and custom delegates. | [MaxLengthStringDelegate.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/MaxLengthStringDelegate.kt) |
+| **58** | Null Safety | Safe calls, Elvis operator, and nullable type mechanics. | [NullSafetyOperations.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/NullSafetyOperations.kt) |
+| **59** | Equality | Structural (`==`) vs. Referential (`===`) comparison. | [EqualityDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/EqualityDemo.kt) |
+| **60** | Generics | Type parameters, constraints, and variance (`in`/`out`). | [GenericsDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/GenericsDemo.kt) |
+| **61** | Async Overview | Exploring threading, callbacks, and future models. | [AsyncProgrammingOverview.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/AsyncProgrammingOverview.kt) |
+| **62** | Coroutines Intro | Introduction to non-blocking suspending functions. | [CoroutinesOverview.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/CoroutinesOverview.kt) |
+| **63** | Reflection | Runtime introspection of classes and members. | [ReflectionDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/ReflectionDemo.kt) |
 | **64** | Destructuring | Unpacking data classes and map entries into variables. | [DestructuringDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/DestructuringDemo.kt) |
-| **65** | Grammar & Syntax | Formal rules, expressions vs. statements, and labels. | [GrammarSyntaxDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/GrammarSyntaxDemo.kt) |
+| **65** | Grammar & Syntax | The formal structure and philosophical pillars of Kotlin. | [GrammarSyntaxDemo.kt](file:///Users/sujay/learn_kotlin/app/src/main/java/learn_kotlin/GrammarSyntaxDemo.kt) |
 
 ## How to Run
 
